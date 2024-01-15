@@ -1,0 +1,50 @@
+@media screen and (max-width: 600px) {
+    .fcont-form, .sec-container{
+        flex-direction: column;
+    }
+    .right-container{
+        display: none;
+    }
+    .fcont-form{
+        width: 287px;
+        padding: 15px;
+    }
+    .fcont-form input, .fcont-form select, .btn-prm{
+        margin: 8px;
+        height: 46px;
+        width: 255px;
+    }
+    .fcont-form select, .btn-prm{
+        width: 265px;
+    }
+    .fcont-title{
+        padding: 10px;
+        font-size: 23px;
+        margin-bottom: 3px;
+    }
+    .fcont-disc{
+        max-width: 350px;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .toggle-btn{
+        display: block;
+    }
+    .dropdown-menu{
+        display: block;
+    }
+    .tcont-images-grid{
+        
+    }
+    .row1, .row2, .row3{
+        grid-template-columns: repeat(1, 1fr);
+        width: 400px;
+        gap: -10px;
+        margin-bottom: 0px;
+    }
+    .row1 img, .row2 img, .row3 img{
+        width: 400px;
+        height: 300px;
+    }
+}

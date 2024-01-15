@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Header Styles Start */
+.header{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-container img{
+    width: 48px;
+    height: 56px;
+    margin-right: 16px;
+    
+}
+.trv-name{  /* Also shared with Our Popular Tours"*/
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+.right-container{
+    justify-content: center;
+    align-items: center;
+}
+.right-container ul{
+    display: flex;
+    list-style: none;
+}
+.right-container ul a{
+    text-decoration: none;
+    margin-left: 44px;
+
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.right-container ul a:hover{
+    color: #FF5400;
+}
+.special-word1{
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.toggle-btn{
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+.dropdown-menu{
+    list-style: none;
+    position: absolute;
+    right: 2rem;
+    height: 0;
+    top: 60px;
+    width: 300px;
+    background: rgba(168, 5, 5, 0.3);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.dropdown-menu .open{
+    height: 240px;
+}
+
+.dropdown-menu a{
+    text-decoration: none;
+}
+.dropdown-menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Header Styles End */
+
+/* Main Styles */
+
+/* First Container */
+.first-container{
+    max-width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px auto;
+    /* align-items: center; */
+}
+.fcont-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 80px;
+}
+.fcont-disc{
+    max-width: 670px;
+    color: #FFF;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-bottom: 50px;
+}
+
+.fcont-form{
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    justify-content: center;
+}
+.fcont-form input, .fcont-form select{
+    border: none;
+    margin: 20px;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+
+    color: rgba(19, 19, 24, 0.50);
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-prm{
+    margin-top: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    padding-left: 10px;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn-prm:hover{
+    cursor: pointer;
+    scale: 1.05;
+}
+
+
+/* Second Container */
+.sec-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.scont-content{
+    justify-content: center;
+}
+.scont-disc{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgba(19, 19, 24, 0.70);
+    max-width: 570px;
+}
+.scont-list{
+    padding-left: 40px;
+    color: rgba(19, 19, 24, 0.70);
+    max-width: 500px;
+    padding-bottom: 15px;
+}
+.scont-list p{
+    padding-bottom: 10px;
+}
+.scont-images img{
+    width: 100%;
+}
+
+/* Third Container */
+
+.tcont-title{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.tcont-disc{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 640px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.tcont-images-grid{
+    height: 900px;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: grid;
+}
+.row1, .row3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 23px;
+    row-gap: 5px;
+}
+.row2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 23px;
+}
+.bg-text{
+    position: relative;
+    top: -50%;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
