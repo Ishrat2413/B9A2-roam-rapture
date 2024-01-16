@@ -2,9 +2,10 @@
     body{
         margin: 10px;
     }
-    .fcont-form, .sec-container, .sixth-container, .seventh-container{
+    .fcont-form, .sec-container, .sixth-container, .seventh-container, .owcont-heading{
         flex-direction: column;
     }
+    
     .right-container{
         display: none;
     }
@@ -80,7 +81,17 @@
     .btn-prm-form{
         width: 280px;
     }
-
+    .owcont-heading{
+        padding-left: 20px;
+        text-align: center;
+    }
+    .owcont-heading button{
+        margin-left: 130px;
+        align-items: center;
+    }
+    .own-pack1:hover, .own-pack2:hover, .own-pack3:hover, .own-pack4:hover{
+        transform: scale(1);
+    }
     .footer-container{
         padding: 5px;
     }
