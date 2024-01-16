@@ -47,6 +47,11 @@
     .img1, .img2, .img3, .img4, .img5, .img6, .img7{
         grid-column: 1/span 1;
     }
+    /* ------- */
+    .bg-text2{
+        top: 45%;
+        left: 22%;
+    }
     /* ------------ */
     .seventh-container{
         margin: 10px;
@@ -59,28 +64,44 @@
         font-size: 20px;
     }
     .secont-images img{
+        /* margin-left: 60px; */
+        max-width: 505px;;
         width: 100%;
         height: auto;
     }
-    .secont-form-cont{
-        max-width: 600px;
-        align-items: center;
-        
+    .saveup{
+        width: 180px;
+        height: 60px;
+        transform: rotate(-19.628deg);
+        border-radius: 16px;
+        background: #FF5400;
+        position: relative;
+        top: -120px;
+        left: 205px;
+
     }
-    .secont-form-cont h3, .secont-form-cont p, .secont-form-cont div{
-        margin-left: 60px;
+    .seventh-container .secont-form-cont{
+        margin-left: 30px;
+        height: 480px;
+        width: 380px;
+        padding: 10px;
     }
-    .secont-form{      
-        margin: 0 auto;
-        padding: 0;
+    .secont-form-cont p, .secont-form-cont h3,  .secont-form-cont .secont-form{
+        margin-left: 20px;
+        max-width: 300px;
     }
     .secont-form input{
         width: 280px;
-        /* padding: 0; */
+    }
+
+    .pack1, .pack2, .pack3{
+        align-items: center;
+        flex-basis: 320px;
     }
     .btn-prm-form{
         width: 280px;
     }
+
     .owcont-heading{
         padding-left: 20px;
         text-align: center;
