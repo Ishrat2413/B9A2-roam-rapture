@@ -1,5 +1,8 @@
 @media screen and (max-width: 600px) {
-    .fcont-form, .sec-container{
+    body{
+        margin: 10px;
+    }
+    .fcont-form, .sec-container, .seventh-container{
         flex-direction: column;
     }
     .right-container{
@@ -39,17 +42,38 @@
     .img1, .img2, .img3, .img4, .img5, .img6, .img7{
         grid-column: 1/span 1;
     }
-    /* .tcont-images-grid{
-        grid-template-columns: repeat(1, 1fr);
+    /* ------------ */
+    .seventh-container{
+        margin: 10px;
     }
-    .row1, .row2, .row3{
-        grid-template-columns: repeat(1, 1fr);
-        width: 400px;
-        gap: -10px;
-        margin-bottom: 0px;
+    .saveup{
+        width: 200px;
+        height: 78px;
     }
-    .row1 img, .row2 img, .row3 img{
-        width: auto;
+    .saveup h3, .saveup h5{
+        font-size: 20px;
+    }
+    .secont-images img{
+        width: 100%;
         height: auto;
-    } */
+    }
+    .secont-form-cont{
+        max-width: 600px;
+        align-items: center;
+        
+    }
+    .secont-form-cont h3, .secont-form-cont p, .secont-form-cont div{
+        margin-left: 60px;
+    }
+    .secont-form{      
+        margin: 0 auto;
+        padding: 0;
+    }
+    .secont-form input{
+        width: 280px;
+        /* padding: 0; */
+    }
+    .btn-prm-form{
+        width: 280px;
+    }
 }
